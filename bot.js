@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // 👉 Bot tokeningizni shu yerga yozing
-const token = '8116183863:AAETGhO9ChHXeSgFajwOhD7Aijua574xMec';
+const token = '7630065869:AAG77clM4jAEt7DBLKj9rzAh_Moagd9u_YM';
 const bot = new TelegramBot(token, { polling: true });
 
 const PASSWORD = '7687';
@@ -66,3 +66,4 @@ function sendAdminPanel(chatId) {
     }
   });
 }
+
